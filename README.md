@@ -36,6 +36,7 @@ Remember the one rule that trips people up: **only `plugin.json` goes inside `.c
 4. Replace this README with one that describes *your* plugin: what it does, the commands it adds, how to use them.
 5. From the repo root, load it with `claude --plugin-dir .`. Run the command as `/your-plugin:summarize-changes`, and trigger the subagent by asking Claude to review your recent changes (it should reach for `code-reviewer`). Use `/reload-plugins` after edits.
 6. Commit and push.
+7. Open a pull request from your fork into `mate-academy/claude-assemble-and-ship` (base: `main`). Check that the base repository is `mate-academy`, not your own fork. The review starts automatically, and the task is marked as done on the platform once it passes.
 
 ### How you'll know it's done
  
